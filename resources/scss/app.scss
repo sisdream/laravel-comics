@@ -1,1 +1,30 @@
 @import "~bootstrap/scss/bootstrap";
+
+.dc-power{
+    background-color: #0282f9;
+    height: 40px;
+}
+
+.nav-bar{
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul{
+    display: flex;
+    gap: 5rem
+}
+
+li{
+    display: inline-block;
+    .link{
+        text-decoration: none;
+        color: #000;
+    }
+    
+    .link .active{
+        color: #0282f9;
+    }
+}

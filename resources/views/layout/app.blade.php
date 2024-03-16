@@ -11,13 +11,9 @@
 
   <body>
     @include('partials.header')
-    <main>
-      <section class="container">
+      <section class="container-fluid px-0">
           @yield('main-content')
       </section>
-    </main>
-    
     @include('partials.footer')
   </body>
-
 </html>

@@ -102,3 +102,42 @@ h3 {
     font-weight: bolder;
     font-size: .8rem;
 }
+
+.quick-links {
+    background-color: #0282f9;
+    padding: 3rem 0;
+    width: 100%;
+}
+
+.quick-link {
+    width: 15rem;
+    cursor: pointer;
+}
+
+.quick-links ul{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.link-img{
+    width: 30%;
+    padding: .2rem;
+}
+
+.link-img img {
+    width: 70%;
+}
+
+img.link-svg {
+    width: 50px;
+    display: inline-block;
+}
+
+.quick-link-text{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: 500;
+}

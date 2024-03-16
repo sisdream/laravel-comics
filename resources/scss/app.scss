@@ -2,11 +2,11 @@
 
 .dc-power{
     background-color: #0282f9;
-    height: 40px;
+    height: 25px;
 }
 
 .nav-bar{
-    height: 150px;
+    height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -27,7 +27,16 @@ li a {
 
 .active{
     color: #0282f9;
-    box-shadow: 0px 40px 0px -6px #0282f9;
+    box-shadow: 0px 55px 0px -7px #0282f9;
 }
 
+.logo img{
+    width: 70px;
+}
 
+.jumbotron img{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    object-position: 0% 0%;
+}

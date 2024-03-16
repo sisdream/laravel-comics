@@ -1,5 +1,5 @@
 @extends('layout.app')
 
 @section('main-content')
-<h1>Games</h1>
+<!-- <h1>Games</h1> -->
 @endsection

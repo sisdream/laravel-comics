@@ -35,6 +35,7 @@
                 </li>
                 <li>
                     <a @if(Route::currentRouteName() == 'shop') class="active" @endif href="{{ route('shop')}}">SHOP</a>
+                    <i class="fa-solid fa-caret-down"></i>
                 </li>
             </ul>
         </nav>

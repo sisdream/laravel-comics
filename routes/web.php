@@ -17,6 +17,8 @@ use App\Http\Controllers\PageController;
 
 Route::get('/', [PageController::class,'comics'])->name('home');
 
+Route::get('comic-detail', [PageController::class,'comicDetail'])->name('comic-detail');
+
 Route::get('characters', [PageController::class,'characters'])->name('characters');
 
 Route::get('movies', [PageController::class,'movies'])->name('movies');

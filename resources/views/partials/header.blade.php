@@ -7,10 +7,10 @@
             </div>
             <ul class="my-0">
                 <li>
-                    <a @if(Route::currentRouteName() == 'home') class="active" @endif href="{{ route('home')}}">COMICS</a>
+                    <a  @if(Route::currentRouteName() == 'characters') class="active" @endif href="{{ route('characters')}}">CHARACTERS</a>
                 </li>
                 <li>
-                    <a  @if(Route::currentRouteName() == 'characters') class="active" @endif href="{{ route('characters')}}">CHARACTERS</a>
+                    <a @if(Route::currentRouteName() == 'home') class="active" @endif href="{{ route('home')}}">COMICS</a>
                 </li>
                 <li>
                     <a @if(Route::currentRouteName() == 'movies') class="active" @endif href="{{ route('movies')}}">MOVIES</a>
